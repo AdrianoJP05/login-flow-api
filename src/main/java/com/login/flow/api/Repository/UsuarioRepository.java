@@ -1,4 +1,4 @@
-package com.login.flow.api.Repository;
+package com.login.flow.api.repository;
 
 
 import java.util.Optional;

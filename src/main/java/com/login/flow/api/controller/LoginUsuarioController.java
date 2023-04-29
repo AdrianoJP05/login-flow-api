@@ -5,8 +5,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import com.login.flow.api.Repository.UsuarioRepository;
+
 import com.login.flow.api.model.Usuario;
+import com.login.flow.api.repository.UsuarioRepository;
 
 @RestController
 public class LoginUsuarioController {

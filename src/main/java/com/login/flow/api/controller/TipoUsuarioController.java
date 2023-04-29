@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.login.flow.api.Repository.TipoUsuarioRepository;
 import com.login.flow.api.model.TipoUsuario;
+import com.login.flow.api.repository.TipoUsuarioRepository;
 
 @RestController
 
